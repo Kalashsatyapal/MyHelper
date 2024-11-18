@@ -89,8 +89,7 @@
        This database specification ensures the system is robust, secure, and scalable for user needs. 
 
 ## Installation 
-
-   Prerequisites
+    -Prerequisites
        1.Flutter SDK
        2.Firebase project configured with proper API keys.  
     -Steps:
