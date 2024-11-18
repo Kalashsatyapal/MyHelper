@@ -1,14 +1,16 @@
 # MyHelper
-MyHelper is a multi-functional Flutter application designed to provide users with various utility tools, such as authentication, battery monitoring, network status, device information, location tracking, contact management, messaging, and photo handling. It features Firebase integration for backend services and a modern dark mode toggle.
+  MyHelper is a multi-functional Flutter application designed to provide users with various utility tools, such as 
+  authentication, battery monitoring, network status, device information, location tracking, contact management, 
+  messaging, and photo handling. It features Firebase integration for backend services and a modern dark mode toggle.
 
 ##Table of Contents
-  1) Features
-  2) Tech Stack
-  3) Installation
-  4) Folder Structure
-  5) Usage
-  6) Contributing
-  7) License
+   1) Features
+   2) Tech Stack
+   3) Installation
+   4) Folder Structure
+   5) Usage
+   6) Contributing
+   7) License
 
 ## Features
    1.User Authentication
@@ -39,7 +41,7 @@ MyHelper is a multi-functional Flutter application designed to provide users wit
    3.State Management: Stateful Widgets
    4.Routing: go_router package for declarative navigation.
    
-## Installation
+## Installation 
    Prerequisites
     1.Flutter SDK
     2.Firebase project configured with proper API keys.  
@@ -123,4 +125,4 @@ MyHelper is a multi-functional Flutter application designed to provide users wit
    5.Open a pull request.  
 
 ##License
-  This project is licensed under the MIT License. See the LICENSE file for details.
+   This project is licensed under the MIT License. See the LICENSE file for details.
