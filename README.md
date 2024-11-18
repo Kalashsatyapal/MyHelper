@@ -6,6 +6,7 @@
 ##Table of Contents
    1) Features
    2) Tech Stack
+   3) Database Specification
    3) Installation
    4) Folder Structure
    5) Usage
@@ -40,8 +41,55 @@
      Firestore
    3.State Management: Stateful Widgets
    4.Routing: go_router package for declarative navigation.
-   
+  
+## *Database Specification*
+
+    The project "MyHelper(Phone Access from Anywhere)" uses *Firebase Firestore* as its primary database. Below is the detailed specification:  
+
+###  *1. Database Type*  
+       - *Type*: NoSQL Cloud Database  
+       - *Service*: Firebase Firestore  
+       - *Data Structure*: Document-based with collections and documents.  
+
+###  *2. Data Models and Structure*  
+       -The data is organized into collections, each containing documents. Key collections and their fields include:  
+
+       - *Users*:  
+          - uid (String): Unique identifier for each user.  
+          - fullName (String): User's full name.  
+          - email (String): User's email address.  
+          - profilepic (String): URL to the profile picture stored in Firebase Storage.  
+        
+       - *Contacts*:  
+          - displayname (String): Contact's name.  
+          - phonenumber (String): Contact's phone number.  
+
+       - *Messages*:  
+         - threadId (String): Unique ID for the message.   
+         - address (String): Recipient’s phone number.  
+         - body (String): Content of the message.  
+         - date (DateTime):Date and Time when the message was sent.
+         - isread :to be saved true, if message is read.   
+ 
+      - *DeviceInfo*: Information about device(e.g., manufacturer, model , android version , android SDK,security patch etc).    
+      - *batteryInfo* : Information about the battery (e.g., level, health, temperature etc).  
+      - *networkInfo* : Information about the network (e.g., wifi_name,wifi_BSSID etc).  
+
+### *3. Security Rules*  
+       Firebase Firestore uses strict security rules to protect user data:  
+        - Only authenticated users can access their own data.  
+        - Role-based access controls are applied to restrict access to sensitive data.  
+
+### *4. Data Synchronization*  
+       Firestore provides real-time updates, ensuring that data remains in sync across all connected devices.  
+
+### *5. Backup and Scalability*  
+       - Firebase automatically backs up data and offers horizontal scaling, allowing the database to handle a growing user base seamlessly.  
+
+       This database specification ensures the system is robust, secure, and scalable for user needs. 
+
 ## Installation 
+
    Prerequisites
     1.Flutter SDK
     2.Firebase project configured with proper API keys.  
