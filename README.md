@@ -91,8 +91,8 @@
 ## Installation 
 
    Prerequisites
-    1.Flutter SDK
-    2.Firebase project configured with proper API keys.  
+       1.Flutter SDK
+       2.Firebase project configured with proper API keys.  
     -Steps:
      1.Clone the repository:
         git clone https://github.com/Kalashsatyapal/MyHelper.git
