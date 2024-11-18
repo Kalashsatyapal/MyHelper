@@ -147,7 +147,7 @@
     -Navigation
       The app uses go_router for managing routes. Each feature is mapped to a specific route:
     
-    Feature	                   Route
+    Feature	                 Route
     Splash Screen	              /
     Login Page	             /login
     Signup Page	             /signup
