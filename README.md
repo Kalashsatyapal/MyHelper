@@ -111,7 +111,7 @@
      5.Run the app:
          flutter run
          
-##Folder Structure
+## Folder Structure
         lib/
         ├── core/
         │   └── theme/
@@ -143,33 +143,33 @@
         │   └── Network_page/
         │       └── Network_page.dart
 
-##Usage
-  -Navigation
-    The app uses go_router for managing routes. Each feature is mapped to a specific route:
+## Usage
+    -Navigation
+      The app uses go_router for managing routes. Each feature is mapped to a specific route:
     
-   Feature	             Route
-   Splash Screen	         /
-   Login Page	             /login
-   Signup Page	           /signup
-   Dashboard	             /dashboard
-   Contact Management	     /contacts
-   Messaging	             /conversationlistscreen
-   Location Tracking	     /location
-   Photo Management	       /photo
-   Battery Monitoring	     /Battery
-   Device Information	     /Device
-   Network Monitoring	     /Network
+    Feature	                Route
+    Splash Screen	           /
+    Login Page	             /login
+    Signup Page	             /signup
+    Dashboard	               /dashboard
+    Contact Management	     /contacts
+    Messaging	               /conversationlistscreen
+    Location Tracking	       /location
+    Photo Management	       /photo
+    Battery Monitoring	     /Battery
+    Device Information	     /Device
+    Network Monitoring	     /Network
 
-##Contributing
-  -Contributions are welcome! Here's how you can contribute:
-   1.Fork the repository.
-   2.Create a new branch:
-     git checkout -b feature-branch-name
-   3.Make your changes and commit:
-     git commit -m "Add your message"
-   4.Push to the branch:
-     git push origin feature-branch-name
-   5.Open a pull request.  
+## Contributing
+    -Contributions are welcome! Here's how you can contribute:
+    1.Fork the repository.
+    2.Create a new branch:
+      git checkout -b feature-branch-name
+    3.Make your changes and commit:
+      git commit -m "Add your message"
+    4.Push to the branch:
+      git push origin feature-branch-name
+    5.Open a pull request.  
 
-##License
-   This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+    This project is licensed under the MIT License. See the LICENSE file for details.
